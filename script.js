@@ -19,10 +19,10 @@ L'output del prezzo finale va stampata in pagina assicurandoci sia leggibile da 
 */
 
 //Creo una const che chiede i chilometri da percorrere con un prompt
-const travel_lenght = parseInt(prompt('Quanti km devi percorrere?'));
+const travel_lenght = parseFloat(prompt('Quanti km devi percorrere?'));
 
 //Creo una const che chiede l'età del passeggero con un prompt
-const user_age = parseInt(prompt('Quanti anni hai?'));
+const user_age = parseFloat(prompt('Quanti anni hai?'));
 
 console.log(travel_lenght , user_age);
 
